@@ -25,7 +25,7 @@ export const FriendListItem = ({ friend }) => (
 
     <FriendListItemContainer data-is-online={friend.isOnline}>
         <span className="status"></span>
-        <img className="avatar" src={friend.avatar} alt="User avatar" width="48" />
+        <img className="avatar" src={friend.avatar} alt="User avatar" width="64" />
         <p className="name">{friend.name}</p>
     </FriendListItemContainer>
 

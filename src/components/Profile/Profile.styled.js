@@ -5,7 +5,7 @@ export const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f3f6f9;
+  /* background-color: #f3f6f9; */
   border: 1px solid #ccc;
   padding: 20px;
   margin: auto;
@@ -40,16 +40,21 @@ export const Location = styled.p`
   color: #999;
 `;
 
+
 export const Stats = styled.ul`
   display: flex;
-  list-style: none;
   padding: 0;
-  margin-top: 20px;
+  background-color: #f3f6f9;
+ border: 1px solid #ccc;
 `;
 
 export const StatItem = styled.li`
   text-align: center;
-  margin: 0 20px;
+  border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100px;
 `;
 
 export const Label = styled.span`
